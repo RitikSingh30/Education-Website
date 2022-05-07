@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Baloo+Bhaijaan+2&family=Libre+Baskerville:ital@1&family=Lobster&family=Redressed&family=Supermercado+One&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navigation  */
+.logo{
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.logo img{
+    width: 26%;
+    border: 2px solid white;
+    border-radius: 28px;
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 16px 11px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.nav-list li a:hover{
+    color: gray;
+}
+
+.rightNav{
+    width: 30%;
+    text-align: right;
+    padding: 0px 25px;
+}
+
+#Search{
+    padding: 5px;
+    font-size: 14px;
+    border: 3px solid gray;
+    border-radius: 8px;
+    height: 14px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../Images/background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* Section  */
+.firstsection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf{
+    width: 30%;
+}
+
+.secondhalf img{
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 60px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 40px;
+}
+
+.text-small{
+    font-size: 17px;
+}
+
+.btn{
+    padding: 5px 8px;
+    margin: 9px 0px;
+    border: 2px solid white;
+    border-radius: 13px;
+    font-size: 17px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-dark{
+    color: black;
+    border: 2px solid rgb(139, 135, 135);
+}
+
+.btn-sm{
+    padding: 3px 8px;
+    vertical-align: middle;
+}
+
+/* Section Right */
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto ;
+    padding-top: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 44px;
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.para{
+    padding: 0px 22px;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thumbnail img{
+    width: 295px;
+    border: 2px solid black;
+    border-radius: 23px;
+}
+
+/* Contact us  */
+.contact{
+    background-color: #effaff; 
+    height: 78vh;
+}
+
+.form{
+    max-width: 62%;
+    margin: 0 auto;
+}
+
+.form-input{
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 8px;
+    border: 2px solid #9c9c9c;
+    border-radius: 6px;
+    margin: 7px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* Footer  */
+.text-footer{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px 0;
+    color: white;
+}
+
+/* Utility Classes  */
+.text-center{
+    text-align: center;
+    padding: 23px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 33px;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
